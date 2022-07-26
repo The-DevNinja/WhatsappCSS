@@ -1,2 +1,5 @@
 # WhatsappCSS
-whatsapp navbar with page transitions (horizontal), also sticky functionality with html and css. 
+whatsapp navbar created with HTML and CSS:
+- with page transitions, 
+- sticky header,
+- light/dark mode.
