@@ -12,7 +12,7 @@
 
 	/* dark mode */
 	color-scheme: light dark;
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 * {
@@ -22,20 +22,21 @@
 body {
 	margin: 0;
 	font-family: poppins;
-  overflow: hidden;
+	overflow: hidden;
 }
 
 header {
-  display: flex;
-  align-items: center;
-  padding: 0 1rem;
-  user-select: none;
-  justify-content: space-between;
+	display: flex;
+	align-items: center;
+	padding: 0 1rem;
+	user-select: none;
+	justify-content: space-between;
+	color: white;
 }
 
 #header-icons {
-  display: flex;
-  gap: 1rem;
+	display: flex;
+	gap: 1rem;
 }
 
 header,
@@ -43,7 +44,7 @@ nav {
 	width: var(--nav-width);
 	height: var(--nav-height);
 	background-color: var(--bg-color);
-  z-index: 1;
+	z-index: 1;
 }
 
 nav {
@@ -94,10 +95,11 @@ nav::before {
 	transition: left var(--anim-speed);
 }
 
-#container > * {
-  padding: 0 1rem;
-  height: min-content;
-  min-height: calc(100vh - (var(--nav-height) * 2)); /* same logic*/
+#container>* {
+	padding: 0 1rem;
+	height: min-content;
+	min-height: calc(100vh - (var(--nav-height) * 2));
+	/* same logic*/
 }
 
 @media (prefers-color-scheme: dark) {

@@ -20,12 +20,12 @@ navItems.forEach((thisItem, index) => {
 			let navHeight = document.querySelector("nav").offsetHeight;
 			let minHeightSection = window.innerHeight - navHeight * 2;
 
-      if (thisSection.offsetHeight > minHeightSection) {
-        document.body.style.overflowY = "auto";
-      } else {
-        document.body.style.overflowY = "hidden";
-        window.scrollTo(0, 0);
-      }
+			if (thisSection.offsetHeight > minHeightSection) {
+				document.body.style.overflowY = "auto";
+			} else {
+				document.body.style.overflowY = "hidden";
+				window.scrollTo(0, 0);
+			}
 		}
 	});
 });
