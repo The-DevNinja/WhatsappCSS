@@ -4,8 +4,4 @@
 |------------------------------ | ----------------------------------------------- |
 | https://youtu.be/Bo7wh8JMoX4  |  https://whatsappcss.vercel.app/                |
 
-whatsapp navbar created with HTML and CSS:
-
-- with page transitions,
-- sticky header,
-- light/dark mode.
+![](https://img.youtube.com/vi/Bo7wh8JMoX4/maxresdefault.jpg)
